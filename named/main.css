@@ -1,0 +1,15 @@
+.container {
+  display: grid;
+  height: 100vh;
+  grid-gap: 10px;
+  grid-template-columns: [left-sidebar-start] 1fr [main-content-start] 3fr [right-sidebar-start] 1fr;
+  grid-template-rows: [body-start] 4fr [footer-start] 1fr;
+}
+
+.container > * {
+  background-color: aquamarine;
+}
+
+.footer {
+  grid-column: main-content-start / span 2;
+}
