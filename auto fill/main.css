@@ -1,0 +1,10 @@
+.container {
+  display: grid;
+  height: 100vh;
+  grid-gap: 10px;
+  grid-template-columns: repeat(auto-fill, minmax(100px, auto));
+}
+
+.box {
+  background-color: aquamarine;
+}
